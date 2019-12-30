@@ -122,7 +122,7 @@ compress_html:
         - development
         - stage
 
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh,indigo.sublime-project]
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, Rakefile, screen-shot.png, travis.sh]
 
 
 ## Building Options

@@ -1,5 +1,7 @@
 #!/bin/bash
 
 JEKYLL_VERSION="3.8.5"
+COMMAND="jekyll serve"
+CFG="_config.yml,_config-dev.yml"
 
-docker run --rm --publish 35729:35729 --publish=4000:4000 --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll serve --config _config.yml,_config-dev.yml
+docker run --rm --publish 35729:35729 --publish=4000:4000 --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION $COMMAND --config $CFG
