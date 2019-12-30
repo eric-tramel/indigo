@@ -1,0 +1,25 @@
+---
+title: " (Panelist) Federated Learning: ML with Privacy on the Edge" 
+date: 2018-11-01
+category: publication
+layout: publication
+pubtype: talk
+tag:
+    - talk
+authors: E. W. Tramel
+link: https://blog.fastforwardlabs.com/2018/11/14/federated-learning.html
+linktalk: https://blog.fastforwardlabs.com/2018/11/14/federated-learning.html
+in: Fast Forward Labs Webinar
+year: 2018
+abstract: >- 
+    Mike Lee Williams from Fast Forward Labs talks about industry research 
+    compiled by FFL on the topic of federated learning and its applications 
+    in many different industries. 
+---
+
+## Invited Panelist
+
+I was an invited panelist for this webinar put on by Cloudera's Fast Forward Labs,
+alongside Virginia Smith (CMU), and Andrew Trask (OpenMined, Deepmind, Oxford).
+I talked a bit about the specific challenges involved in the application of 
+federated learning in the health industry.
